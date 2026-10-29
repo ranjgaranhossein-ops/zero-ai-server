@@ -3,7 +3,7 @@
 app = FastAPI(title="ZERO AI")
 
 class ChatRequest(BaseModel):
-  message:   str
+  message:    str
 @app.get("/")
 def home():
 return {
